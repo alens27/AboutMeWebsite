@@ -1,0 +1,60 @@
+
+body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #2e4d80;
+      color: white;
+      text-align: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#biography {
+            font-size: 25px;
+            font-weight: bold;
+            border: 7px solid green;
+            background-color: teal;
+            text-align: center;
+            margin: 30px;
+            padding: 10px;
+}
+img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width="50%";
+}
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    font-size: 25px;
+}
+table {
+       border: 3px solid black;
+       border-collapse: collapse;
+       width: 35%;
+       text-align: center;
+       color: black;
+}
+table.center {
+              margin-left:auto;
+              margin-right:auto;
+}
+th, td {
+        border: 1px solid black;
+        padding: 5px;
+}
+th {
+    background-color: lightgray;
+}
+td {
+    background-color: #f5f3ed;
+}
+#bottom {
+  font-size: 15px
+}
+.name {
+  font-weight: bold;
+}
