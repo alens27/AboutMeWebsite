@@ -7,16 +7,19 @@
 	<body>
 		<h1>Hey There!</h1>
 		<h1>I'm Alen Saracevic.</h1>
+		<a href=#biography>Go to Biography</a><br>
+		<a href=#image>Go to Image</a><br>
+		<a href=#table>Go to Table</a><br>
 		<div id="biography">
 		 		I am enthusiastic about technological and scientific advancements. <br> Also, I love to write and visit engineering masterpieces around the world.<br>
 		</div>
-		 <img src="Euroscola_Picture for Website.jpeg"><br>
+		 <img id="image" src="Euroscola_Picture for Website.jpeg"><br>
 				<ul>
 						I lived in:
 						<li>Sterling, United States of America</li>
 						<li>Graz, Austria</li>
 				</ul>
-				<table>
+				<table id="table">
 					<table class="center">
 					Places Visited
 					<tr>
@@ -102,8 +105,14 @@
 				</table>
 					<form>
 							<input type="text" placeholder="E-mail" name="name"><br>
+							<input type="password" placeholder="Password" name="password"><br>
 							<button>Submit!</button>
 					</form>
+					<div>
+						Favorite color?
+						<input name="color" type"radio" value"blue"> Blue
+						<input name="color" type"radio" value"green"> Green
+					</div>
 					<div id="bottom">
 							Thanks for reading my <span class="name">About Me Web Page.</span>
 					</div>
